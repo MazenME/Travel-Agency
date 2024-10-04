@@ -1,0 +1,13 @@
+{
+  "name": "travel-landing-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  },
+  "scripts": {
+    "build": "tailwindcss -i ./style.css -o ./output.css",
+    "watch": "tailwindcss -i ./style.css -o ./output.css --watch"
+  }
+}
